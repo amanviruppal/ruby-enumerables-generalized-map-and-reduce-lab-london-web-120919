@@ -4,6 +4,6 @@ def map(array)
   while i < array.length 
   new.push(yield(array[i]))
   i +=1
-end
+ end
 new
 end
